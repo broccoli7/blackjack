@@ -9,4 +9,4 @@ if len(sys.argv) - 1 != 1:
 with open(sys.argv[1], 'r') as infile:
     for line in infile:
         rows = line.rstrip().split(',')
-
+        print rows[0]
